@@ -1,0 +1,7 @@
+<div class="wrapper">
+  <p>{{ title }}</p>
+  <div *ngFor="let empty of [].constructor(starNumber); let i = index" #star
+    class="star unmark" (mouseover)="mark(i)" (mouseleave)="removeMark(i)"
+    (click)="setRate(i)"
+  ></div>
+</div>

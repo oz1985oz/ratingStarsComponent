@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+
+    p {
+        margin-left: 1rem;
+        min-width: 120px;
+    }
+
+    .star {
+        width: 30px;
+        height: 30px;
+        color: transparent;
+        -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    }
+
+    .unmark {
+        background-color: #333;
+    }
+
+    .fixedMark {
+        background-color: #ffc200;
+    }
+
+    .mark {
+        background-color: #ffae00;
+    }
+}
